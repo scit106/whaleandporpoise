@@ -1,0 +1,39 @@
+/* overrides */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* reusable classes */
+.title-font {
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.body-font {
+	font-family: 'Carrois Gothic', sans-serif;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+/* Specific styles */
+#title-block {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+}
+
+
