@@ -1,0 +1,109 @@
+/* overrides */
+html {
+	height: 100%;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* reusable classes */
+.title-font {
+	/*font-family: 'Shadows Into Light Two', cursive;*/
+	font-family: 'Titan One', cursive;
+}
+
+.body-font {
+	font-family: 'Muli', sans-serif;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.block {
+	display: block;
+}
+
+.section-block {
+	padding: 2%;
+	width: 50%;
+	float: left;
+	min-height: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content-text {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.social-link {
+	padding: 10px;
+}
+
+/* Specific styles */
+#header {
+	background-color: rgb(245,245,245);
+	background-image: url(WhaleandPorpoise.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#header h1 {
+	padding: 10px;
+}
+
+#header p {
+	padding: 10px;
+	font-size: 20px;
+}
+
+#about {
+	background-color: rgb(200,235,245);
+}
+
+#shows {
+	background-color: rgb(225,225,225);
+}
+
+#contact {
+	background-color: rgb(245,250,255);
+}
+
+#contact .fa {
+	font-size: 300%;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+@media(max-width: 615px) {
+	.section-block {
+		width: 100%;
+	}
+}
