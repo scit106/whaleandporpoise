@@ -138,6 +138,11 @@ a {
 
 #header h1 {
 	text-transform: uppercase;
+	text-shadow:
+	 -1px -1px 0px rgba(255, 255, 255, 1),
+	 -1px -1px 0px rgba(255, 255, 255, 1),
+	 -1px -1px 0px rgba(255, 255, 255, 1),
+	 -1px -1px 0px rgba(255, 255, 255, 1);
 }
 
 #header p {
@@ -147,10 +152,11 @@ a {
 
 #content-area {
 	padding-top: 90px;
+	padding-bottom: 60px;
 }
 
 #about p {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.5;
 }
 
@@ -182,14 +188,19 @@ a {
 	vertical-align: middle;
 }
 
-#contact {
-	background-color: rgb(245,250,255);
+#footer {
+	width: 100%;
+	background-color: rgb(50, 50, 50);
 }
 
-#contact .fa {
+#footer .social-link {
+	color: white;
+	padding: 2% 4%;
 	font-size: 300%;
-	vertical-align: middle;
-	padding: 10px;
+}
+
+#footer .social-link:hover {
+	color: rgb(80, 200, 240);
 }
 
 @media(max-width: 615px) {
