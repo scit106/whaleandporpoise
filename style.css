@@ -61,6 +61,10 @@ a {
 	position: relative;
 }
 
+.no-overflow {
+	overflow: hidden;
+}
+
 /* specific classes */
 
 .beige-background {
