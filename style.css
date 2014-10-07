@@ -207,8 +207,46 @@ a {
 	color: rgb(80, 200, 240);
 }
 
-@media(max-width: 615px) {
+@media(max-width: 979px) {
+	#content-area {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
 	.section-block {
+		display: block;
 		width: 100%;
+		margin: 2% 0;
+	}
+}
+@media(max-width: 752px) {
+	#header:before, #header:after {
+		display: none;
+	}
+	#header .header-logo {
+		width: 100%;
+		padding: 0% 2%;
+		height: 150px;
+		background-size: contain;
+	}
+	#header .header-text {
+		width: 100%;
+		padding: 1% 2% 4%;
+	}
+}
+@media(max-width: 400px) {
+	#content-area {
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.show {
+		height:auto;
+		padding: 1%;
+	}
+	.show .show-link-button {
+		float: none;
+	}
+	.show .show-location {
+		padding: 2%;
+		text-align: center;
 	}
 }
