@@ -70,7 +70,7 @@ a {
 /* Specific styles */
 #header {
 	background-color: rgb(245,245,245);
-	background-image: url(WhaleandPorpoise.jpg);
+	/*background-image: url(WhaleandPorpoise.jpg);*/
 	background-size: cover;
 	background-position: center;
 }
